@@ -1,0 +1,88 @@
+/* Restablecer estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #0077b5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #fff;
+  }
+  
+  .logo h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  /* Contenedor principal */
+  .Container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Sección principal */
+  .Square {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .Square h1 {
+    text-align: center;
+    color: #0077b5;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .Square h3 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .Square p {
+    text-align: justify;
+    font-size: 18px;
+  }
+  
